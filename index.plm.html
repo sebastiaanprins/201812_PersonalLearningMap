@@ -7,67 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    <script src="main.js"></script>
 </head>
+
 <body>
-    <div class="container bg-danger">
-        <div class="row bg-primary">
-            <h1 style="text-align:center">Personal Learning Map - S. Prins</h1>
+
+    <div class="container">
+        <div class="row-fluid bg-dark text-center">
+            <h1 class="text-white-50 display-3 font-weight-bold">Learning Map - S. Prins</h1>
         </div>
-        <div class="row">
-                <div class="col-md-6 bg-info">
-                    <ul class="list-unstyled">
-                        <li><input type="checkbox" name="frontEnd_1" value="HTML" checked>HTML</li>
-                        <li><input type="checkbox" name="frontEnd_2" value="CSS" checked>CSS</li>
-                        <li><input type="checkbox" name="frontEnd_3" value="Bootstrap" checked>Bootstrap</li>
-                        <li><input type="checkbox" name="frontEnd_4" value="JavaScript">JavaScript</li>
-                        <li><input type="checkbox" name="frontEnd_5" value="Angular">Angular</li>
-                    </ul>  
-                </div>
-                <div class="col-md-6 bg-danger">2
-                    
-                </div>
-
-
+        <div><hr /></div>
+        <div class="row font-weight-bold">
+            <div class="col-md-6 bg-primary">
+                <ul class="list-unstyled offset-sm-1 text-white-50">
+                    <p class="text-center display-4 font-weight-bold">Front-end</p>
+                    <li><input type="checkbox" name="frontEnd_1" value="HTML" checked>&nbsp HTML
+                    <li><input type="checkbox" name="frontEnd_2" value="CSS" checked>&nbsp CSS</li>
+                    <li><input type="checkbox" name="frontEnd_3" value="Bootstrap" checked>&nbsp Bootstrap</li>
+                    <li><input type="checkbox" name="frontEnd_4" value="JavaScript">&nbsp JavaScript</li>
+                    <li><input type="checkbox" name="frontEnd_5" value="Angular">&nbsp Angular</li>
+                </ul>  
+            </div>
+            <div class="col-md-6 bg-warning">
+                <ul class="list-unstyled offset-sm-1 text-white-50">
+                    <p class="text-center display-4 font-weight-bold">General</p>
+                    <li><input type="checkbox" name="frontEnd_1" value="Scrum" checked>&nbsp Scrum</li>
+                    <li><input type="checkbox" name="frontEnd_2" value="IDE" checked>&nbsp IDE</li>
+                    <li><input type="checkbox" name="frontEnd_3" value="VersionControl" checked>&nbsp Version control</li>
+                    <li><input type="checkbox" name="frontEnd_4" value="CloudDeployment">&nbsp Clound deployment</li>
+                    <li><input type="checkbox" name="frontEnd_5" value="QWASPWebSecurity">&nbsp QWASP web security</li>
+                </ul>  
+            </div>
+        </div>
+        <div class="row font-weight-bold">
+            <div class="col-md-6 bg-success">
+                <ul class="list-unstyled offset-sm-1 text-white-50">
+                    <p class="text-center display-4 font-weight-bold">Back-end</p>
+                    <li><input type="checkbox" name="frontEnd_1" value="PHP" checked>&nbsp PHP</li>
+                    <li><input type="checkbox" name="frontEnd_2" value="Laravel" checked>&nbsp Laravel</li>
+                    <li><input type="checkbox" name="frontEnd_3" value="MySQL" checked>&nbsp MySQL</li>
+                    <li><input type="checkbox" name="frontEnd_4" value="Linux">&nbsp Linux</li>
+                </ul>  
+            </div>
+            <div class="col-md-6 bg-danger">
+                <ul class="list-unstyled offset-sm-1 text-white-50">
+                    <p class="text-center display-4 font-weight-bold">Soft skills</p>
+                    <li><input type="checkbox" name="frontEnd_1" value="SelfImprovement" checked>&nbsp Self improvement</li>
+                    <li><input type="checkbox" name="frontEnd_2" value="Communication" checked>&nbsp Communication</li>
+                    <li><input type="checkbox" name="frontEnd_3" value="ProblemSolving" checked>&nbsp Problem solving</li>
+                    <li><input type="checkbox" name="frontEnd_4" value="TimeManagement">&nbsp Time management</li>
+                    <li><input type="checkbox" name="frontEnd_5" value="Angular">&nbsp Angular</li>
+                </ul>  
+            </div>
         </div>
     </div>
-                
-    <ul class="list-unstyled">
-        <li><input type="checkbox" name="frontEnd_1" value="HTML" checked>HTML</li>
-        <li><input type="checkbox" name="frontEnd_2" value="CSS" checked>CSS</li>
-        <li><input type="checkbox" name="frontEnd_3" value="Bootstrap" checked>Bootstrap</li>
-        <li><input type="checkbox" name="frontEnd_4" value="JavaScript">JavaScript</li>
-        <li><input type="checkbox" name="frontEnd_5" value="Angular">Angular</li>
-    </ul>
 
-<button class="btn btn-success" onclick="$(this).hide();">Click me!</button>
+    <button class="btn btn-success" onclick="$(this).hide();">Click me!</button>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!-- 1 Front-end development
-HTML
-CSS
-Bootstrap
-JavaScript
-Angular
-
-2 General development
-Scrum
-IDE
-Version control
-Cloud deployment
-OWASP web security
-
-3 Back-end development
-PHP
-Laravel
-MySQL
-Linux
-
-4 Soft skills
-Self improvement
-Communication
-Problem solving
-Time management -->
